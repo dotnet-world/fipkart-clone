@@ -1,0 +1,85 @@
+.navBarMain{
+    @apply
+    sticky
+    flex
+    top-0
+    w-full
+    z-40
+    bg-primary
+}
+.navBarContainer {
+    @apply
+    flex
+    justify-between
+    w-full
+    h-full
+    container
+    max-w-6xl
+    m-auto
+    p-2
+}
+.logoSection{
+    @apply
+    flex
+    flex-col
+}
+.exploreItems{
+    @apply
+    flex
+    flex-row
+    gap-1
+}
+.exploreFontStyle{
+    @apply
+    italic
+    text-sm
+    font-semibold
+}
+.exploreText{
+    @apply
+    text-gray-100
+    exploreFontStyle 
+   
+}
+.explorePlusText{
+    @apply
+    exploreFontStyle
+    text-plus
+}
+.searchSection{
+    @apply
+    bg-white
+    px-2
+    mt-1
+    h-10
+    rounded-sm
+    flex
+}
+.searchInput {
+    @apply
+    w-96
+    px-2
+    focus:outline-none
+    placeholder-slate-400
+    text-sm
+}
+.loginButton{
+    @apply
+    h-10
+    text-primary
+    bg-white
+    px-10
+    rounded-sm
+    font-semibold
+    mt-1
+    text-xl
+    pb-1
+}
+.navLink{
+    @apply
+    text-white
+    font-semibold
+    my-3
+    flex
+    gap-1
+}

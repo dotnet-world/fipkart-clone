@@ -5,7 +5,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        primary:'#2874F1',
+        plus:'#FFE500'
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    function({addUtilities}){
+      const extendedUnderline={
+        '.underline':{
+          'textDecoration':'underline',
+          'text-decoration-color':'white'
+        }
+      }
+      addUtilities(extendedUnderline)
+    }
+  ],
 }
