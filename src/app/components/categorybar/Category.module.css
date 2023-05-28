@@ -1,0 +1,39 @@
+.categoryBar{
+    @apply
+    relative
+    w-full
+    h-36
+    bg-white
+}
+.categoryContainer{
+    @apply
+    flex
+    justify-between
+    w-full
+    p-4
+}
+.menuContainer{
+    @apply
+    relative
+    w-full
+    h-40
+}
+.menuItem{
+    @apply
+    relative
+    flex
+    flex-col
+    h-full
+    z-10
+    text-center
+    align-middle
+    items-center
+    hover:text-primary
+    cursor-pointer
+
+}
+.categoryTile{
+    @apply
+    text-lg
+    font-semibold
+}
