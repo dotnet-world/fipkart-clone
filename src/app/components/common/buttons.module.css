@@ -1,0 +1,33 @@
+.button {
+  @apply absolute
+top-0
+
+z-30
+flex
+items-center
+justify-center
+h-full
+focus:outline-none
+cursor-default;
+}
+.bottonWrapper {
+  @apply inline-flex
+items-center
+justify-center
+h-10
+w-8
+py-16
+px-2
+sm:w-10
+sm:h-10
+bg-white
+group-focus:outline-none;
+}
+.leftButton {
+  @apply left-0
+rounded-r-md;
+}
+.rightButton {
+  @apply right-0
+rounded-l-md;
+}

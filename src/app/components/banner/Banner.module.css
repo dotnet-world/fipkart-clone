@@ -1,0 +1,5 @@
+.banerContainer {
+  @apply relative
+    h-96
+    m-3;
+}
